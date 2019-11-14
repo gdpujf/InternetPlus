@@ -10,12 +10,7 @@
 				</view>
 				<view :class="PageCur=='home'?'text-green':'text-gray'">首页</view>
 			</view>
-<<<<<<< HEAD
 			<view class="action" @click="NavChange" data-cur="service">
-=======
-			
-			<view class="action" @click="NavChange" data-cur="serivce">
->>>>>>> 3a28af4ba58933665b578ef9f754ca48c3551f5e
 				<view class='cuIcon-cu-image'>
 					<image :src="'/static/tabbar/component' + [PageCur == 'service'?'_cur':''] + '.png'"></image>
 				</view>
