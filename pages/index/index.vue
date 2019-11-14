@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<home v-if="PageCur=='home'"></home>
-		<serivce v-if="PageCur=='serivce'"></serivce>
+		<service v-if="PageCur=='service'"></service>
 		<person v-if="PageCur=='person'"></person>
 		<view class="cu-bar tabbar bg-white shadow foot">
 			<view class="action" @click="NavChange" data-cur="home">
@@ -10,11 +10,11 @@
 				</view>
 				<view :class="PageCur=='home'?'text-green':'text-gray'">首页</view>
 			</view>
-			<view class="action" @click="NavChange" data-cur="serivce">
+			<view class="action" @click="NavChange" data-cur="service">
 				<view class='cuIcon-cu-image'>
-					<image :src="'/static/tabbar/component' + [PageCur == 'serivce'?'_cur':''] + '.png'"></image>
+					<image :src="'/static/tabbar/component' + [PageCur == 'service'?'_cur':''] + '.png'"></image>
 				</view>
-				<view :class="PageCur=='serivce'?'text-green':'text-gray'">服务</view>
+				<view :class="PageCur=='service'?'text-green':'text-gray'">服务</view>
 			</view>
 			<view class="action" @click="NavChange" data-cur="person">
 				<view class='cuIcon-cu-image'>

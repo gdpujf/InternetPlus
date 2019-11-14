@@ -4,8 +4,8 @@ import App from './App'
 import home from './pages/home/home.vue'
 Vue.component('home',home)
 
-import serivce from './pages/service/home.vue'
-Vue.component('serivce',serivce)
+import service from './pages/service/home.vue'
+Vue.component('service',service)
 
 import person from './pages/person/home.vue'
 Vue.component('person',person)

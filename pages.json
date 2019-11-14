@@ -5,6 +5,14 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path":"pages/service/data_recording",
+			"style":{}
+		},
+		{
+			"path":"pages/service/release_new",
+			"style":{"navigationBarTitleText": "发布新动态"}
 		}
 	],
 	"globalStyle": {

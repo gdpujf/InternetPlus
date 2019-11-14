@@ -31,14 +31,14 @@
 				StatusBar: this.StatusBar,
 				CustomBar: this.CustomBar,
 				list: [{
-						title: '功能1',
+						title: '记录身体数据',
 						img: 'https://image.weilanwl.com/color2.0/plugin/sylb2244.jpg',
-						url: '../plugin/indexes'
+						url: '/pages/service/data_recording'
 					},
 					{
-						title: '功能2',
+						title: '发布动态',
 						img: 'https://image.weilanwl.com/color2.0/plugin/wdh2236.jpg',
-						url: '../plugin/animation'
+						url: '/pages/service/release_new'
 					},
 					{
 						title: '功能3',
