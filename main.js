@@ -13,6 +13,9 @@ Vue.component('person',person)
 import cuCustom from './colorui/components/cu-custom.vue'
 Vue.component('cu-custom',cuCustom)
 
+import newscard from './colorui/components/newscard.vue'
+Vue.component('newscard',newscard)
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'
