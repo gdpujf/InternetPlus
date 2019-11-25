@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "今日SHOW",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "you-scroll": "/components/you-scroll"
+  }
+}

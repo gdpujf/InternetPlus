@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/service/data_recording",
+    "pages/service/release_new",
+    "pages/service/show",
+    "pages/service/live"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "ColorUi for UniApp",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "恒见校园健康-年轻人一站式健康服务平台",
+  "compilerVersion": "2.3.7",
+  "usingComponents": {
+    "home": "/pages/home/home",
+    "service": "/pages/service/home",
+    "person": "/pages/person/home",
+    "cu-custom": "/colorui/components/cu-custom",
+    "newscard": "/colorui/components/newscard"
+  }
+}

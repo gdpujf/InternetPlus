@@ -1,6 +1,6 @@
 <template>
 	<view >
-		<cu-custom bgImage="/static/微信截图_20191125160241.png">
+		<cu-custom bgImage="/static/20191125160241.png">
 			<block slot="content">
 				<image src="/static/cjkz_1.png" mode="aspectFill" style="width: 240upx;height: 60upx;"></image>
 			</block>

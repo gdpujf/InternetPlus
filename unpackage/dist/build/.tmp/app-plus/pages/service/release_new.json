@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "发布新动态",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

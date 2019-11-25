@@ -28,7 +28,7 @@
 					"view":'9999+',
 					"like":524,
 					"remark":311,
-					"img_url":"/static/index/微信图片_20191125151827.jpg",
+					"img_url":"/static/index/20191125151827.jpg",
 					"avatar_url":"/static/index/20150813130914_yVXuL.jpeg"},
 					
 					{type:"动态",
@@ -38,7 +38,7 @@
 					"view":'9999+',
 					"like":214,
 					"remark":42,
-					"img_url":"/static/index/微信图片_20191125152223.jpg",
+					"img_url":"/static/index/20191125152223.jpg",
 					"avatar_url":"/static/index/20160607191023_isxzV.jpeg"},
 					{type:"剪影",
 					"text":'walking upon the city',
@@ -47,7 +47,7 @@
 					"view":'9999+',
 					"like":2875,
 					"remark":455,
-					"img_url":"/static/index/微信图片_20191125152227.jpg",
+					"img_url":"/static/index/20191125152227.jpg",
 					"avatar_url":"/static/index/20170922162149_snyk3.jpeg"},
 					]
 			}

@@ -1,0 +1,1 @@
+<view><scroll-view class="page" scroll-y><view class="newscard"><newscard vue-id="1" reciveUserInfo="{{lists}}" bind:__l="__l"></newscard></view><view class="cu-tabbar-height"></view></scroll-view></view>
