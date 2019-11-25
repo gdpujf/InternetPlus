@@ -1,6 +1,10 @@
 <template>
 	<view >
-		<cu-custom bgColor="bg-gradual-pink" :isBack="false"><block slot="content">首页</block></cu-custom>
+		<cu-custom bgImage="/static/微信截图_20191125160241.png">
+			<block slot="content">
+				<image src="/static/cjkz_1.png" mode="aspectFill" style="width: 240upx;height: 60upx;"></image>
+			</block>
+		</cu-custom>
 		
 		
 		<view v-for="(item,index) in reciveUserInfo" :key="index" class="cu-card case" :class="isCard?'no-card':''" >

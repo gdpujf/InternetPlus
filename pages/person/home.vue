@@ -1,11 +1,11 @@
 <template>
 	<view class="page_content">
 		<view class="header">
-			<image class="btn" src="/static/person/icon_scan.png"></image>
+			
 			<text class="title">我的个人中心</text>
 			<image class="btn" src="/static/person/icon_msg.png"></image>
 		</view>
-		<image class="logo" src="/static/person/head.png"></image>
+		<image class="logo" src="/static/person/pullDown.jpg"></image>
 
 		<swiper @change="swiperChange" previous-margin="50px" next-margin="50px" class="swiper" :indicator-dots="false"
 		 :autoplay="false" :interval="3000" :duration="1000" :current="bigIdx">
@@ -65,22 +65,22 @@
 				title: 'Hello',
 				bigIdx: 1,
 				vips: [{
-					bg: 'linear-gradient(94deg,rgba(150,147,168,1),rgba(150,147,164,1))',
+					bg: 'linear-gradient(94deg,rgba(219,207,202,1),rgba(150,147,164,1))',
 					shadow: '0px 3px 12px 0px rgba(195,164,110,0.23)',
 					title: '普通会员',
 					subTitle: '距离下一等级还差20积分'
 				}, {
-					bg: 'linear-gradient(94deg,rgba(192,160,105,1),rgba(233,213,172,1))',
+					bg: 'linear-gradient(94deg,rgba(147,224,255,1),rgba(199,237,233,1))',
 					shadow: '0px 3px 12px 0px rgba(195,164,110,0.23)',
 					title: '高级会员',
 					subTitle: '距离下一等级还差100积分'
 				}, {
-					bg: 'linear-gradient(94deg,rgba(150,147,168,1),rgba(150,147,164,1))',
+					bg: 'linear-gradient(94deg,rgba(219,207,202,1),rgba(150,147,164,1))',
 					shadow: '0px 3px 12px 0px rgba(195,164,110,0.23)',
 					title: '超级会员',
 					subTitle: '距离下一等级还差200积分'
 				}, {
-					bg: 'linear-gradient(94deg,rgba(150,147,168,1),rgba(150,147,164,1))',
+					bg: 'linear-gradient(94deg,rgba(219,207,202,1),rgba(150,147,164,1))',
 					shadow: '0px 3px 12px 0px rgba(195,164,110,0.23)',
 					title: '钻石会员',
 					subTitle: '距离下一等级还差400积分'

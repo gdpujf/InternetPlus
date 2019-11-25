@@ -1,7 +1,7 @@
 <template name="components">
 	<view>
 		<scroll-view scroll-y class="page">
-			<cu-custom bgImage="https://image.weilanwl.com/color2.0/plugin/cjkz2329.jpg">
+			<cu-custom bgImage="/static/微信截图_20191125160241.png">
 				<block slot="content">
 					<image src="/static/cjkz.png" mode="aspectFill" style="width: 240upx;height: 60upx;"></image>
 				</block>
@@ -32,22 +32,22 @@
 				CustomBar: this.CustomBar,
 				list: [{
 						title: '记录身体数据',
-						img: 'https://image.weilanwl.com/color2.0/plugin/sylb2244.jpg',
+						img: '/static/微信截图_20191125155323.png',
 						url: '/pages/service/data_recording'
 					},
 					{
 						title: '发布动态',
-						img: 'https://image.weilanwl.com/color2.0/plugin/wdh2236.jpg',
+						img: '/static/微信截图_20191125155431.png',
 						url: '/pages/service/release_new'
 					},
 					{
 						title: 'Show',
-						img: 'https://image.weilanwl.com/color2.0/plugin/qpct2148.jpg',
+						img: '/static/微信截图_20191125155703.png',
 						url: '/pages/service/show'
 					},
 					{
 						title: '我的校园',
-						img: 'https://image.weilanwl.com/color2.0/plugin/qpczdh2307.jpg',
+						img: '/static/微信截图_20191125154809.png',
 						url: '/pages/service/live'
 					}
 					
