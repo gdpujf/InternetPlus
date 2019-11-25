@@ -1,6 +1,6 @@
 <template>
 	<view id="moments">
-	<cu-custom bgColor="bg-gradual-pink" :isBack="true">
+	<cu-custom bgColor="bg-gradual-blue" :isBack="true">
 		<block slot="backText">返回</block>
 		<block slot="content">广东药科大学社区</block>
 	</cu-custom>
@@ -9,7 +9,7 @@
 				<view class="top-pic">
 					<image class="header" src="../../static/live/test/header06.jpg" @tap="test"></image>
 				</view>
-				<view class="top-name">Liuxy</view>
+				<view class="top-name">热心网友陈德华</view>
 			</view>
 		</view>
 
@@ -72,7 +72,7 @@
 			return {
 				posts: postData,//模拟数据
 				user_id: 4,
-				username: 'Liuxy',
+				username: '热心网友陈德华',
 
 				index: '',
 				comment_index: '',
@@ -86,7 +86,7 @@
 				platform: '',
 				windowHeight: '' ,//可用窗口高度(不计入软键盘)
 				
-				loadMoreText: "加载中...",
+				loadMoreText: "正在获取中~",
 				showLoadMore: false,
 			}
 		},

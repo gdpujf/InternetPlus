@@ -1,7 +1,8 @@
 <template>
 	<view>
-		<cu-custom bgColor="bg-gradual-pink" :isBack="true">
+		<cu-custom bgColor="bg-gradual-blue" :isBack="true">
 			<block slot="backText">返回</block>
+			
 			<block slot="content">记录我的身体数据</block>
 		</cu-custom>
 		<form>
