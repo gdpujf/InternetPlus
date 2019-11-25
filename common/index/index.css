@@ -180,7 +180,7 @@
 	width: auto;
 	height: auto;
 	position: absolute;
-	right: 60upx;
+	right: 70upx;
 	display: flex;
 	align-items: center;
 }
@@ -188,13 +188,12 @@
 	width: auto;
 	height: auto;
 	position: absolute;
-	right: 0upx;
+	right: 10upx;
 	display: flex;
 	align-items: center;
 }
 
 #moments .moments__post .toolbar image{
-	padding-left: 20upx;
 	width: 40upx;
 	height: 40upx;
 }
