@@ -8,14 +8,16 @@
 			
 			<view class="cu-item shadow">
 				<view class="image">
-					<image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg"
-					 mode="widthFix"></image>
+					<image v-bind:src="item.img_url"
+					 mode="widthFix" id="imgInit"></image>
+					 
+					 
 					<view class="cu-tag bg-blue">{{item.type}}</view>
 					<view class="cu-bar bg-shadeBottom"> <text class="text-cut">{{item.text}}</text></view>
 				</view>
 				<view class="cu-list menu-avatar">
 					<view class="cu-item">
-						<view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
+						<view class="cu-avatar round lg" v-bind:style="{backgroundImage:'url(' + item.avatar_url + ')'}"></view>
 						<view class="content flex-sub">
 							<view class="text-grey">{{item.author}}</view>
 							<view class="text-gray text-sm flex justify-between">
@@ -41,13 +43,14 @@
 		data() {
 			
 			return {
-				isCard: false,			
+				isCard: false,
+				src:"https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg"
 			};
 		},
 		methods: {
 			IsCard(e) {
 				this.isCard = e.detail.value
 			},
-		}
+		},
 	}
 </script>

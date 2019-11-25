@@ -67,23 +67,23 @@
 				vips: [{
 					bg: 'linear-gradient(94deg,rgba(150,147,168,1),rgba(150,147,164,1))',
 					shadow: '0px 3px 12px 0px rgba(195,164,110,0.23)',
-					title: '小学生',
-					subTitle: '距离下一等级还差888积分'
+					title: '普通会员',
+					subTitle: '距离下一等级还差20积分'
 				}, {
 					bg: 'linear-gradient(94deg,rgba(192,160,105,1),rgba(233,213,172,1))',
 					shadow: '0px 3px 12px 0px rgba(195,164,110,0.23)',
-					title: '初中生',
-					subTitle: '距离下一等级还差888积分'
+					title: '高级会员',
+					subTitle: '距离下一等级还差100积分'
 				}, {
 					bg: 'linear-gradient(94deg,rgba(150,147,168,1),rgba(150,147,164,1))',
 					shadow: '0px 3px 12px 0px rgba(195,164,110,0.23)',
-					title: '高中生',
-					subTitle: '距离下一等级还差888积分'
+					title: '超级会员',
+					subTitle: '距离下一等级还差200积分'
 				}, {
 					bg: 'linear-gradient(94deg,rgba(150,147,168,1),rgba(150,147,164,1))',
 					shadow: '0px 3px 12px 0px rgba(195,164,110,0.23)',
-					title: '带学生',
-					subTitle: '距离下一等级还差888积分'
+					title: '钻石会员',
+					subTitle: '距离下一等级还差400积分'
 				}],
 				tasks: [{
 						icon: '/static/person/icon_signin.png',
@@ -97,25 +97,25 @@
 					},
 					{
 						icon: '/static/person/icon_friend.png',
-						name: '按时吃水果',
+						name: '规划生活',
 						desc: '完成获得7积分奖励'
 					}
 				],
 				welfare: [{
 						icon: '/static/person/icon_evaluate.png',
-						name: '专属礼包'
+						name: '拥有高级会员头衔'
 					},
 					{
 						icon: '/static/person/icon_gift.png',
-						name: '生日礼包'
+						name: '发布询问贴优先显示'
 					},
 					{
 						icon: '/static/person/icon_score.png',
-						name: '我的积分'
+						name: '我的趋势'
 					},
 					{
 						icon: '/static/person/icon_other.png',
-						name: '其他礼包'
+						name: '专属礼包'
 					}
 				]
 

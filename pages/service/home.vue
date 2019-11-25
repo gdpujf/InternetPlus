@@ -50,6 +50,7 @@
 						img: 'https://image.weilanwl.com/color2.0/plugin/qpczdh2307.jpg',
 						url: '/pages/service/live'
 					}
+					
 				]
 			};
 		},
