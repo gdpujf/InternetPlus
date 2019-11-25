@@ -13,6 +13,32 @@
 		{
 			"path":"pages/service/release_new",
 			"style":{"navigationBarTitleText": "发布新动态"}
+		},
+		{
+			"path":"pages/service/show",
+			"style":{"navigationBarTitleText": "今日SHOW"}
+		},
+		{
+			"path":"pages/service/live",
+			"style" : {
+			    "navigationBarTitleText" : "我的校园",
+				"enablePullDownRefresh" : true,
+			    "app-plus" : {
+			        "bounce" : "none",
+			        "titleNView" : {
+			            "type" : "transparent",
+			            "buttons" : [
+			                {
+			                    "background" : "rgba(255,255,255,0.2)",
+			                    "color" : "#696969",
+			                    "type" : "none",
+			                    "fontSrc" : "/static/fonts/iconfont.ttf",
+			                    "text" : "\ue608" //小相机
+			                }
+			            ]
+			        }
+			    }
+			}
 		}
 	],
 	"globalStyle": {

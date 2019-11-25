@@ -41,14 +41,14 @@
 						url: '/pages/service/release_new'
 					},
 					{
-						title: '功能3',
+						title: 'Show',
 						img: 'https://image.weilanwl.com/color2.0/plugin/qpct2148.jpg',
-						url: '../plugin/drawer'
+						url: '/pages/service/show'
 					},
 					{
-						title: '功能4',
+						title: '我的校园',
 						img: 'https://image.weilanwl.com/color2.0/plugin/qpczdh2307.jpg',
-						url: '../plugin/verticalnav'
+						url: '/pages/service/live'
 					}
 				]
 			};

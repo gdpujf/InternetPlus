@@ -1,14 +1,11 @@
 <template>
 	<view >
 		<cu-custom bgColor="bg-gradual-pink" :isBack="false"><block slot="content">首页</block></cu-custom>
-		<view class="cu-bar bg-white solid-bottom">
-			
-			<view class="action">
-				<switch :class="isCard?'checked':''" :checked="isCard?true:false" @change="IsCard"></switch>
-			</view>
-		</view>
+		
 		
 		<view v-for="(item,index) in reciveUserInfo" :key="index" class="cu-card case" :class="isCard?'no-card':''" >
+			
+			
 			<view class="cu-item shadow">
 				<view class="image">
 					<image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg"
@@ -33,6 +30,8 @@
 					</view>
 				</view>
 			</view>
+			
+			
 		</view>
 	</view>
 </template>
