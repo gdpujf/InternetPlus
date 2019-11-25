@@ -3858,6 +3858,11 @@ scroll-view.cu-steps .cu-item {
 .lines-white {
 	color: #ffffff;
 }
+.text-hblue,
+.line-hblue,
+.lines-hblue {
+	color: #08fbf1;
+}
 @-webkit-keyframes cuIcon-spin {
 0% {
 		-webkit-transform: rotate(0);
