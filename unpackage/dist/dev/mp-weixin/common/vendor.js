@@ -8512,7 +8512,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   "post_id": '1',
   "uid": 1,
   "username": "柏舟号",
-  "header_image": "/static/live/test/微信图片_20191125165059.jpg",
+  "header_image": "/static/live/test/20191125165059.jpg",
   "content": {
     "text": "最懂你的资源工具箱~柏舟号为你定期带来免费干货大咖经验，包括各类教程软件、IT、考研、金融、外语、高中考等领域的资源，你想要的，这里都有！资源全部无需分享，回复关键字即拿~",
     "images": ["/static/live/test/DesignCap.jpg",
@@ -8684,7 +8684,7 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "uni-app" }, "pages/service/data_recording": {}, "pages/service/release_new": { "navigationBarTitleText": "发布新动态" }, "pages/service/show": { "navigationBarTitleText": "今日SHOW" }, "pages/service/live": { "navigationBarTitleText": "我的校园", "enablePullDownRefresh": true } }, "globalStyle": { "navigationBarBackgroundColor": "#0081ff", "navigationBarTitleText": "ColorUi for UniApp", "navigationStyle": "custom", "navigationBarTextStyle": "white" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "uni-app", "usingComponents": {} }, "pages/service/data_recording": { "usingComponents": {} }, "pages/service/release_new": { "navigationBarTitleText": "发布新动态", "usingComponents": {} }, "pages/service/show": { "navigationBarTitleText": "今日SHOW", "usingComponents": { "you-scroll": "/components/you-scroll" } }, "pages/service/live": { "navigationBarTitleText": "我的校园", "enablePullDownRefresh": true, "usingComponents": { "chat-input": "/components/im-chat/chatinput" } } }, "globalStyle": { "navigationBarBackgroundColor": "#0081ff", "navigationBarTitleText": "ColorUi for UniApp", "navigationStyle": "custom", "navigationBarTextStyle": "white" } };exports.default = _default;
 
 /***/ }),
 
