@@ -3910,3 +3910,9 @@ scroll-view.cu-steps .cu-item {
 .lines-white {
 	color: #ffffff;
 }
+
+.text-hblue,
+.line-hblue,
+.lines-hblue {
+	color: #08fbf1;
+}
