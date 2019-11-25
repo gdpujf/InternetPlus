@@ -41,7 +41,7 @@
 						url: '/pages/service/release_new'
 					},
 					{
-						title: 'Show',
+						title: '话题',
 						img: '/static/20191125155703.png',
 						url: '/pages/service/show'
 					},
