@@ -2,7 +2,7 @@ export default [{
 							"post_id": '1',
 							"uid": 1,
 							"username": "柏舟号",
-							"header_image": "/static/live/test/微信图片_20191125165059.jpg",
+							"header_image": "/static/live/test/20191125165059.jpg",
 							"content": {
 								"text": "最懂你的资源工具箱~柏舟号为你定期带来免费干货大咖经验，包括各类教程软件、IT、考研、金融、外语、高中考等领域的资源，你想要的，这里都有！资源全部无需分享，回复关键字即拿~",
 								"images": ["/static/live/test/DesignCap.jpg",

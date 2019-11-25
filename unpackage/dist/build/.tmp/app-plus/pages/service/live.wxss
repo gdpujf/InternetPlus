@@ -160,7 +160,7 @@
 	width: auto;
 	height: auto;
 	position: absolute;
-	right: 60rpx;
+	right: 70rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -174,7 +174,7 @@
 	width: auto;
 	height: auto;
 	position: absolute;
-	right: 0rpx;
+	right: 10rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -185,7 +185,6 @@
 	        align-items: center;
 }
 #moments .moments__post .toolbar image.data-v-3c79173a{
-	padding-left: 20rpx;
 	width: 40rpx;
 	height: 40rpx;
 }
