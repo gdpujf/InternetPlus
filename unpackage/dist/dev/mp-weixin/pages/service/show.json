@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "今日SHOW",
+  "usingComponents": {
+    "you-scroll": "/components/you-scroll"
+  }
+}

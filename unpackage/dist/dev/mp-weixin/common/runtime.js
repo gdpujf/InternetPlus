@@ -104,11 +104,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"pages/home/home":1,"pages/person/home":1,"pages/service/home":1};
+/******/ 		var cssChunks = {"pages/home/home":1,"pages/person/home":1,"pages/service/home":1,"components/you-scroll":1,"components/im-chat/chatinput":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"colorui/components/cu-custom":"colorui/components/cu-custom","colorui/components/newscard":"colorui/components/newscard","pages/home/home":"pages/home/home","pages/person/home":"pages/person/home","pages/service/home":"pages/service/home"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"colorui/components/cu-custom":"colorui/components/cu-custom","colorui/components/newscard":"colorui/components/newscard","pages/home/home":"pages/home/home","pages/person/home":"pages/person/home","pages/service/home":"pages/service/home","components/you-scroll":"components/you-scroll","components/im-chat/chatinput":"components/im-chat/chatinput"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

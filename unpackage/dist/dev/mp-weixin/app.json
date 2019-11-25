@@ -1,6 +1,10 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/service/data_recording",
+    "pages/service/release_new",
+    "pages/service/show",
+    "pages/service/live"
   ],
   "subPackages": [],
   "window": {
@@ -11,9 +15,10 @@
   },
   "usingComponents": {
     "home": "/pages/home/home",
-    "serivce": "/pages/service/home",
+    "service": "/pages/service/home",
     "person": "/pages/person/home",
     "cu-custom": "/colorui/components/cu-custom",
     "newscard": "/colorui/components/newscard"
-  }
+  },
+  "sitemapLocation": "sitemap44.json"
 }
