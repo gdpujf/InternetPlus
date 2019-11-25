@@ -124,7 +124,7 @@ export default [{
 							"header_image": "/static/live/test/20181104124841_hypim.jpg",
 							"content": {
 								"text": "所有的努力终会给你带来不一样的收货",
-								"images": ["/static/live/test/微信图片_20191125171052.png"
+								"images": ["/static/live/test/20191125171052.png"
 								]
 							},
 							"islike": 0,
