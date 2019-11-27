@@ -196,7 +196,7 @@ var _default =
     return {
       posts: _indexPostData.default, //模拟数据
       user_id: 4,
-      username: 'Liuxy',
+      username: '热心网友陈德华',
 
       index: '',
       comment_index: '',
@@ -210,7 +210,7 @@ var _default =
       platform: '',
       windowHeight: '', //可用窗口高度(不计入软键盘)
 
-      loadMoreText: "加载中...",
+      loadMoreText: "正在获取中~",
       showLoadMore: false };
 
   },
