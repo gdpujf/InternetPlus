@@ -3,7 +3,9 @@
 		<cu-custom bgColor="bg-gradual-blue" :isBack="true">
 			<block slot="backText">返回</block>
 			<block slot="content">发布动态</block>
+			<button class="cu-btn round bg-cyan">完成</button>
 		</cu-custom>
+		
 		<form>
 			
 			<view class="cu-form-group align-start">
@@ -46,8 +48,12 @@
 			<view class="cu-form-group">
 				<view class="title">今日步数</view>
 				<input placeholder="默认不上传今日步数" name="input"></input>
-				<button class='cu-btn bg-green shadow'>自动同步</button>
+				<button class="cu-btn round bg-cyan" >自动同步</button>
 			</view>
+			<view class="padding flex flex-direction">
+				<button class="cu-btn bg-cyan lg">发布</button>
+			</view>
+			
 		</form>
 	</view>
 </template>

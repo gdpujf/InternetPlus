@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "newscard": "/colorui/components/newscard"
+  },
+  "component": true
+}

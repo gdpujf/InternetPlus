@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "home": "/pages/home/home",
+    "service": "/pages/service/home",
+    "person": "/pages/person/home"
+  }
+}
