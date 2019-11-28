@@ -136,7 +136,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
         "like": 524,
         "remark": 311,
         "img_url": "/static/index/20191125151827.jpg",
-        "avatar_url": "/static/index/20150813130914_yVXuL.jpeg" },
+        "avatar_url": "/static/index/1.jpg" },
 
       { type: "动态",
         "text": '闭上嘴 迈开腿 #GZ  #广州',
@@ -146,7 +146,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
         "like": 214,
         "remark": 42,
         "img_url": "/static/index/20191125152223.jpg",
-        "avatar_url": "/static/index/20160607191023_isxzV.jpeg" },
+        "avatar_url": "/static/index/2.jpg" },
       { type: "剪影",
         "text": 'walking upon the city',
         "author": "_zhanggz",
@@ -155,7 +155,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
         "like": 2875,
         "remark": 455,
         "img_url": "/static/index/20191125152227.jpg",
-        "avatar_url": "/static/index/20170922162149_snyk3.jpeg" }] };
+        "avatar_url": "/static/index/3.png" }] };
 
 
   } };exports.default = _default;
