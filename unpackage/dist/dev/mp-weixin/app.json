@@ -19,5 +19,6 @@
     "person": "/pages/person/home",
     "cu-custom": "/colorui/components/cu-custom",
     "newscard": "/colorui/components/newscard"
-  }
+  },
+  "sitemapLocation": "sitemap23.json"
 }

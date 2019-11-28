@@ -3,7 +3,6 @@
 		<view class="header">
 			
 			<text class="title">我的个人中心</text>
-			<image class="btn" src="/static/person/icon_msg.png"></image>
 		</view>
 		<image class="logo" src="/static/person/pullDown.jpg"></image>
 
@@ -103,11 +102,11 @@
 				],
 				welfare: [{
 						icon: '/static/person/icon_evaluate.png',
-						name: '拥有高级会员头衔'
+						name: '高级头衔'
 					},
 					{
 						icon: '/static/person/icon_gift.png',
-						name: '发布询问贴优先显示'
+						name: '优先询问'
 					},
 					{
 						icon: '/static/person/icon_score.png',
@@ -315,12 +314,12 @@
 					width: 80px;
 					height: 30px;
 					margin-bottom: 10px;
-					background: linear-gradient(94deg, rgba(192, 160, 105, 1), rgba(233, 213, 172, 1));
+					background: linear-gradient(94deg,rgba(0, 206, 209, 1), rgba(64, 224, 208, 1));
 					box-shadow: 0px 9px 28px 0px rgba(195, 164, 110, 0.23);
 					border-radius: 29px;
 					font-size: 12px;
 					font-weight: 400;
-					color: rgba(255, 255, 255, 1);
+					color: white;
 					line-height: 21px;
 					display: flex;
 					align-items: center;
@@ -350,7 +349,7 @@
 
 			.border {
 				margin-top: 5px;
-				border: 2px solid #c9ac7a;
+				border: 2px solid #40E0D0;
 				border-radius: 50%;
 				display: flex;
 				align-items: center;
