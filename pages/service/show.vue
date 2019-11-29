@@ -68,8 +68,8 @@
 		overflow: hidden;
 	}
 	.img1{
-	      background-size: 100% 100%;
-	      background: url('/static/show.png') center center no-repeat;
+	      background-size: cover;
+	      background: url('http://r.photo.store.qq.com/psb?/V10lz7VG2GMfye/7kCz.Nag6m2.86*VM8RVMKDTqwO.eVhpHRUiAVF9PDE!/r/dMMAAAAAAAAA') center center no-repeat;
 	      height: 100%;
 	      position: fixed;
 	      width: 100%
