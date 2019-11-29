@@ -14,10 +14,6 @@
 				<!-- <div class="loadingText">正在努力加载...</div> -->
 			</view>
 		</you-scroll>
-		<view class="padding">
-			<button class="cu-btn block bg-blue margin-tb-sm lg" disabled type="">无效状态</button>
-			<button class="cu-btn block line-blue margin-tb-sm lg" disabled>无效状态</button>
-		</view>
 
 	</view>
 </template>

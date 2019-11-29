@@ -19,7 +19,7 @@
     "autoclose": false
   },
   "appname": "恒见校园健康-年轻人一站式健康服务平台",
-  "compilerVersion": "2.3.7",
+  "compilerVersion": "2.4.2",
   "usingComponents": {
     "home": "/pages/home/home",
     "service": "/pages/service/home",
